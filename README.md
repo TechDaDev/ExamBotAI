@@ -4,20 +4,21 @@ A responsive chatbot application built using Python's **Tkinter** library and **
 
 ## Features
 
-On launch, the app checks if it has an OpenAI API key saved. If not, it will prompt the user for the API key.
+1- On launch, the app checks if it has an OpenAI API key saved. If not, it will prompt the user for the API key.
 
-The user can choose to chat with either a *mathematics expert* or a *database expert*.
+2- The user can choose to chat with either a *mathematics expert* or a *database expert*.
 
-The chatbot conducts an examination, asking the user a question and waiting for a response.
+3- The chatbot conducts an examination, asking the user a question and waiting for a response.
 
-The chatbot asks up to 10 questions, with each answer graded on a scale of 1 to 10.
+4- The chatbot asks up to 10 questions, with each answer graded on a scale of 1 to 10.
 
-The user's response should be the answer to the question. If the response is not relevant, the chatbot will reply with "it's not relevant, please answer the question."
-The user's answers and grades are recorded.
+5- The user's response should be the answer to the question. If the response is not relevant, the chatbot will reply with "it's not relevant, please answer the question."
 
-At the end of the 10 questions, the user will see their answers, correct answers (if they were wrong), and their grade.
+6- The user's answers and grades are recorded.
 
-The chat interface is designed using light colors.
+7- At the end of the 10 questions, the user will see their answers, correct answers (if they were wrong), and their grade.
+
+8- The chat interface is designed using light colors.
 
 ## Installation and Running
 
